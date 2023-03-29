@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap5 Website Ödev - Yusuf Gökçimen</title>
+</head>
+
+<body>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://r.resimlink.com/2w_miaOyYudM.png" alt="Logo" class="w-50">
+                </a>
+                <div class="d-flex justify-content-end align-items-center">
+                    <a class="btn btn-warning" href="#">Alışverişe Başla</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!-- NAVBAR   S-->
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sipariş</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Katalog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Ürünler
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr class="mx-auto w-75 border-2 opacity-25">
+    <!-- NAVBAR   E-->
+
+
+    <div class="container bg-light">
+        <div class="row mt-5">
+            <div class="col-3 d-flex">
+                <img src="https://r.resimlink.com/SmvL3z.jpg" class="mt-auto " alt=""
+                    style="border-radius:30%; height:320px;width:250px">
+            </div>
+            <div class="col-3">
+                <p class="fs-1 fw-bold">Ucuz ve Kaliteli Ürünlerimizle <br>
+                    Sizlere Hizmet Etmekten Mutluluk Duyuyoruz. </p>
+                <p class="text-warning">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, tempore?
+                    Debitis non necessitatibus est voluptatum enim consequatur ipsum, perspiciatis impedit!</p>
+                <a href="#" class="btn btn-warning">Ürünlerimizi İnceleyin ></a>
+            </div>
+
+            <div class="col text-end position-relative">
+                <div class="mb-3">
+                    <img src="https://r.resimlink.com/IDN6_K.jpg" style="border-radius:25%; height:600px;width:500px">
+                </div>
+                <img src="https://r.resimlink.com/pHnura.png" alt="" class="position-absolute bottom-0 start-0">
+            </div>
+
+        </div>
+    </div>
+    <hr class="mx-auto w-75 border-2 opacity-25">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 position-relative">
+                <img src="https://r.resimlink.com/90n8a.jpg" alt="" style="border-radius:30%; height:650px;width:500px">
+                <img src="https://r.resimlink.com/u2W1fFcV.png" alt="" class="position-absolute start-0 bottom-0">
+            </div>
+            <div class="col-6">
+                <h1 class="fs-1 fw-bold text-warning">Hakkımızda</h1>
+                <p class="fs-2">1990 Yılından Beri <br> Sizlere Hizmet <br> Vermekteyiz</p>
+                <p class="fs-3 text-warning">Türkiyenin 81 ilinde mağazalarımız bulunmaktadır.</p>
+                <p class="fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, hic! Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Velit, hic!</p>
+                <p class="fw-bold"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolores, maiores?</p>
+                <p class="fw-bold"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolores, maiores?</p>
+                <p class="fw-bold"><i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolores, maiores?</p>
+
+            </div>
+        </div>
+    </div>
+
+    <hr class="mx-auto w-75 border-2 opacity-25">
+    <div class="row">
+        <div class="col-12">
+            <p class="fw-bold d-flex justify-content-center fs-4">Lorem.</p>
+            <p class="fs-2 d-flex fw-bold justify-content-center text-info">Lorem ipsum dolor sit amet.</p>
+            <p class="fs-3 d-flex justify-content-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus?
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col">
+                <div class="card-group mt-5">
+                    <div class="card">
+                        <div class="ms-4" style="font-size:120px;color:#83850b">
+                            <i class="fa-solid fa-percent"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">İndirimli Ürünler</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, rem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-group mt-5">
+                    <div class="card">
+                        <div class="ms-4" style="font-size:120px;color:#83850b">
+                            <i class="fa-regular fa-credit-card"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Hızlı Ödeme</h5>
+                            <p class="card-text">>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, rem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-group mt-5">
+                    <div class="card">
+                        <div class="ms-4" style="font-size:120px;color:#83850b">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sepette İndirim</h5>
+                            <p class="card-text">>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, rem?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <p class="text-warning fs-4">Lorem ipsum dolor sit</p>
+                <p class="fs-2 fw-bold">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <p class="fs-3 text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+                    numquam, delectus eveniet et pariatur</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="nav-link text-warning" href="#">Show All</a>
+                    <a class="nav-link text-warning" href="#">Design Branding</a>
+                    <a class="nav-link text-warning" href="#">Development</a>
+                    <a class="nav-link text-warning" href="#">SEO</a>
+                    <a class="nav-link text-warning" href="#">UX/UI</a>
+                    <a class="nav-link text-warning" href="#">Design</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/tJSm7_Mk9l.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Süt ve Süt Ürünleri</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/fgshBAQXV.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Et ve Et Ürünleri</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/NUKSpye.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Şarküteri ve Kahvaltılık</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/Py741Dl3V.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Meyve Sebze</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/AkZDtoRIUC9a.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Atıştırmalık Ürünler</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://r.resimlink.com/vIzoFfT.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">İçecek</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis doloribus quasi sequi accusantium, modi minus sit expedita voluptates fugit similique?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3 bg-warning position-relative">
+        <div class="row" style="height:400px">
+          <div class="col-6 fw-bold text-white">
+            <p class="fs-4">Hadi Çalışalım</p>
+            <p class="fs-2">Deneyimli, Müşterilere Karşı Saygılı & Ürün
+              Satışında Becerikli Kişileri Aramızda Görmek İsteriz
+              Eğer İlgileniyorsan Hemen Aşağıdaki Butondan Başvuru Yap.</p>
+            <button class="btn btn-outline-warning">Birlikte Çalışalım</button>
+          </div>
+          <div class="col-6 position-relative">
+            <img src="https://r.resimlink.com/90n8a.jpg" class="position-absolute bottom-0 right-0" alt="" style="border-radius:30%; height:270px;width:600px; transform: translate(-50%, 50%);right:-150px">
+          </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row" style="margin-top:200px">
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="card-group mt-5">
+            <div class="card">
+                <div class="ms-4" style="font-size:60px;color:#83850b">
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Hızlı Teslimat</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+                <div class="ms-4" style="font-size:60px;color:#83850b">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Online Sipariş</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+                <div class="ms-4" style="font-size:60px;color:#83850b">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+              <div class="card-body">
+                <h5 class="card-title">Müşteri Temsilcisi</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+                <div class="ms-4" style="font-size:60px;color:#83850b">
+                    <i class="fa-solid fa-ticket"></i>
+                </div>
+                
+              <div class="card-body">
+                <h5 class="card-title">İndirim Kuponları</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+<div class="row mt-5 bg-warning">
+    
+        <div class="col-4">
+            <p class="fs-4">Lorem ipsum dolor sit.</p>
+                <p class="fs-2">Lorem ipsum dolor sit.</p>
+                <p class="fs-4">Lorem ipsum dolor sit.</p>
+                <img src="https://r.resimlink.com/DmaglW.jpg" alt="" style="border-radius:30%;width:400px">
+        </div>
+            
+           <div class="col-4 pt-5 ms-5">
+            <div style="margin-top:50px; margin-left:10px;">
+                <img src="https://r.resimlink.com/5_Yu1ok.png" alt="" class="mt-5"></div>
+            
+            
+                <p class="fs-2 fw-bold mt-1 ms-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit suscipit fugiat quaerat! Sunt quia illum, dolore vero reiciendis obcaecati perspiciatis.
+                    
+                </p>
+
+            </div>
+         </div>
+        </div>
+    </div>
+</div>
+<div class="container" style="margin-left:500px">
+    <div class="row">
+        <div class="col">
+            <h2 class="d-flex mt-3" style="margin-left:340px">Bizimle Tanışın.</h2>
+            <p class="d-flex justify-content-center fs-3 fw-bold" style="margin-left:-400px">Tecrübeli Çalışanlarımızla Her Zaman Hizmetinizdeyiz. </p>
+            <p class="d-flex justify-content-center fs-4 fw-bold text-muted" style="margin-left:-380px">
+            7/24 Online Olarak Web Sitemizde de Hizmet Vermekteyiz.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+    <div class="row ms-5">
+        <div class="col-2">
+            <img class="rounded-circle" src="https://r.resimlink.com/4jvb5p.jpg" alt="" style="width:270px;height:325px">
+            <h3 class="fw-bold ms-5">Adnan Yılmaz</h3>
+            <h4 class="text-muted ms-5">Web Developer</h4>
+            
+        </div>
+        <div class="col-2">
+            <img class="rounded-circle" src="https://r.resimlink.com/2wEYc4.jpg" alt="" style="width:270px;height:325px ">
+            <h3 class="fw-bold ms-5">Berkecan Demir</h3>
+            <h4 class="text-muted  ms-5">Web Developer</h4>
+            
+        </div>
+        <div class="col-1">
+            <img class="rounded-circle" src="https://r.resimlink.com/6QVxehR3-.jpg" alt="" style="width:270px;height:325px">
+            <h3 class="fw-bold ms-5">Fatih Çoban</h3>
+            <h4 class="text-muted ms-5">UX/UI Designer</h4>
+        </div>
+       
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 style="font-size:80px;font-weight: bolder;color:white;background-color: white;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Görüşlerinizi Bizimle Paylaşmak İsterseniz</h1>
+            <h2 style="font-size:80px;font-weight: bolder;color:rgb(0,0,0);background-color: white;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Aşağıdaki Formu Doldurun</h2>
+            <p class="text-muted fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere officiis at beatae adipisci vero. Dolorem beatae laudantium consequuntur aut voluptatem hic nulla nam error pariatur facere doloremque sequi, aliquid sit.</p>
+        </div>
+        
+    </div>
+   
+    <div class="row mt-5">
+        <div class="col-3">
+            <i class="fa-solid fa-envelope" style="font-size:30px"></i>
+                <span class="ms-2"style="font-size:30px;">Email</span>
+                <h4>onlinemarket@gmail.com</h4>
+        <input type="text" name="" class="form-control fw-bold"placeholder="İsim Soyisim">
+        </div>
+        <div class="col-3">
+            <i class="fa-solid fa-envelope" style="font-size:30px"></i>
+                <span class="ms-2"style="font-size:30px;">Telefon</span>
+                <h4>+012 (355) 36 78</h4>
+        <input type="text" name="" class="form-control fw-bold"placeholder="İsim Soyisim">
+        <div class="col" style="margin-left: 400px;">
+            <img src="https://r.resimlink.com/ku6K1Za.jpg" style="position:relative;top:-90px;left:90px;border-radius: 40%;" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="row" style="position:relative">
+        <div class="col-4">
+            <textarea class="form-control mt-3" name="" id=""  rows="8" style="position:absolute;top:-600px;width: 635px;"></textarea>
+        <button class="btn btn-success fs-5 fw-bold" style="position:relative;top:-370px;" onmouseover="this.style.backgroundColor='red'" onmouseout="this.style.backgroundColor='green'" >Gönder</button>
+        </div>
+    </div>
+    <div class="container" style="margin-top:-100px">
+        <div class="row">
+            <div class="col d-flex justify-content-center me-5">
+            <h3 >Yeniliklerden Haberdar Ol</h3>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                <h2 class="fs-1 fw-bold">Yeni Ürünler & İndirimler</h2>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+            <h3>Lorem ipsum dolor sit amet.</h4>
+            </div>
+    </div>
+    <div class="container" style="margin-top:30px;">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <button type="button" class="btn btn-warning w-25 mt-3 ms-3">Şimdi Gör</button>
+              <div class="card-body">
+                <h5 class="card-title">Atıştırmalıklar</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, debitis!
+                </p>
+                <h5><a href="#" class="">Go somewhere <i class="fa-solid fa-arrow-right-long"></i></a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button type="button" class="btn btn-warning w-25 mt-3 ms-3">Şimdi Gör</button>
+              <div class="card-body">
+                <h5 class="card-title">İçecekler</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, esse.</p>
+                <h5><a href="#" class="">Go somewhere <i class="fa-solid fa-arrow-right-long"></i></a></h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <button type="button" class="btn btn-warning w-25 mt-3 ms-3">Şimdi Gör</button>
+              <div class="card-body">
+                <h5 class="card-title">Bakliyat Ürünleri</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dignissimos!</p>
+                <h5><a href="#" class="">Go somewhere <i class="fa-solid fa-arrow-right-long"></i></a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-1">
+                <img src="./images/delivery-truck.png">
+            </div>
+            <div class="col-4 ms-5 mt-5" >
+                <h1 class="fw-bold" style="font-size: 50px;">MARKET ONLINE</h1>
+            </div>
+            <div class="col-6 ms-5 mt-3" style="position: relative;right:-120px;" >
+                <h1 class="fw-bold" style="font-size:50px">Kalite ve Ucuz Ürünün</h1>
+                <h1 class="fw-bold" style="font-size:50px;color:rgb(238, 224, 22)">Doğru Adresi</h1>
+
+            </div>
+        </div>
+      </div>
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Ürünler
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Süt ve Süt Ürünleri</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Bakliyat</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Meyve ve Sebze</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Daha Fazlası...</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
